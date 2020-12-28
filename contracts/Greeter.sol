@@ -1,6 +1,8 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
 
+import "hardhat/console.sol";
+
 contract Greeter {
 
     string greeting;
@@ -14,6 +16,9 @@ contract Greeter {
     }
 
     function setGreeting(string memory _greeting) public {
+        // Hardhat Console Log
+        console.log("Setting Greeting to:", _greeting);
+        
         greeting = _greeting;
     }
 
