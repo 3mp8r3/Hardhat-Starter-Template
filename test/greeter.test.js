@@ -1,13 +1,13 @@
 const Greeter = artifacts.require("Greeter");
 
 // Traditional Truffle test
-contract("Greeter", (accounts) => {
+contract("Greeter", ([admin, alice, bob, random]) => {
   it("Should return the new greeting once it's changed", async function () {
-    const greeter = await Greeter.new("Hello, world!");
-    assert.equal(await greeter.greet(), "Hello, world!");
+    const greeter = await Greeter.new("Hello!");
+    assert.equal(await greeter.greet(), "Hello!");
 
-    await greeter.setGreeting("Hola, mundo!");
+    await greeter.setGreeting("Hello, World!", { from: admin });
 
-    assert.equal(await greeter.greet(), "Hola, mundo!");
+    assert.equal(await greeter.greet(), "Hello, World!");
   });
 });
