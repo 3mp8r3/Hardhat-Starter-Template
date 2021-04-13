@@ -23,10 +23,9 @@ module.exports = {
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API,
-    // url: "https://api-rinkeby.etherscan.io/",
   },
   solidity: {
-    version: "0.7.0",
+    version: "0.7.6",
     settings: {
       optimizer: {
         enabled: true,
