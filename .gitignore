@@ -4,4 +4,5 @@ artifacts/
 cache/
 package-lock.json
 .env
+yarn.lock
 
