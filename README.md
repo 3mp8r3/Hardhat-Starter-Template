@@ -1,6 +1,6 @@
-# Truffle Hardhat
+# Hardhat Kit
 
-Hardhat integration to truffle project
+Hardhat basic usage with forked mainnet and console.log
 
 ## Dependencies
 
@@ -30,6 +30,7 @@ yarn deploy
 ## Useful Links
 
 - [Hardat Tutorial](https://hardhat.org/tutorial/)
+- [Forking Mainnet](https://hardhat.org/guides/mainnet-forking.html)
 - [Hardat Truffle Plugin](https://github.com/nomiclabs/hardhat/tree/master/packages/hardhat-truffle5)
 - [Testing with Truffle](https://hardhat.org/guides/truffle-testing.html#testing-with-web3-js-truffle)
 - [Verifying contracts on etherscan](https://www.npmjs.com/package/@nomiclabs/hardhat-etherscan)
