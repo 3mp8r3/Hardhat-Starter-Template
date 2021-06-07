@@ -1,7 +1,6 @@
-# Hardhat Kit
+# Hardhat Starter
 
-Hardhat basic usage with forked mainnet and console.log
-
+Hardhat basic usage with forked mainnet
 ## Dependencies
 
 Install dependencies with `npm install` or `yarn`
