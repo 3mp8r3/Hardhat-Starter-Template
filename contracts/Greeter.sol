@@ -15,7 +15,6 @@ contract Greeter {
   }
 
   function setGreeting(string memory _greeting) public {
-    // Hardhat Console Log
     console.log("Setting Greeting to:", _greeting);
 
     greeting = _greeting;
