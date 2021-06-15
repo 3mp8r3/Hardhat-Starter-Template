@@ -1,4 +1,4 @@
-# Hardhat Starter
+# Hardhat Starter Template
 
 Hardhat basic usage with forked mainnet
 ## Dependencies
